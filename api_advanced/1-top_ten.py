@@ -24,4 +24,3 @@ def top_ten(subreddit):
 
     for child in data.get("children"):
         print(child.get("data").get("title"))
-
